@@ -3,7 +3,7 @@ import typing
 import socket
 import asyncio
 
-from lightsocks.utils import net
+from lightsocks.utils import net   # from collections import namedtuple 设置监听地址
 from lightsocks.core.cipher import Cipher
 from lightsocks.core.securesocket import SecureSocket
 
